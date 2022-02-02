@@ -12,4 +12,8 @@ export default createGlobalStyle`
         background: ${props => props.theme.colors.background};
         color: ${props => props.theme.colors.text};
     }
+
+    h1 {
+        text-align: center;
+    }
 `;
