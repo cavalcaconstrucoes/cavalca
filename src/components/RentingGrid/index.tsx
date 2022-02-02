@@ -11,32 +11,33 @@ const RentingGrid: React.FC = () => {
     return(
         <RentingGridStyle>
             <RentingGridCard>
-                <RentingGridImg><img src={img1} /> </RentingGridImg>
-                <h1>Britador móvel para finos tipo VSI</h1>
-                <p>Equipamento de britagem que montado em paralelo com outros conjuntos proporcionam um aumento significativo da produção de materiais "finos".</p>
+                <>
+                //Card aqui
+                </>
             </RentingGridCard>
             <RentingGridCard>
                 <RentingGridImg><img src={img2} /> </RentingGridImg>
-                <h1>Conjunto de Britagem com Carretas Separadas</h1>
-                <p>A Cavalca Construções possui um conjunto de britagem formada por um britador de mandíbulas C-100 e britadores cônicos HP 200 da marca Metso.</p>
+                <h1>Usinas de asfalto</h1>
+                <p></p>
             </RentingGridCard>
             <RentingGridCard>
-                <img src={img3} />
+                //anexar imagem
                 <h1>Conjunto de Britagem Completo com 1 Chassi</h1>
+                <p>A Cavalca Construções possui conjunto de britagem formada por britadores de mandíbulas C-100 e britadores cônicos HP 200 da marca Metso.</p>
                 <p>Britadores modelo Metso NW 80 HP 200, peneira de 3 decks. Proporcionam excelentes produções atendendo à demanda de grandes Obras com sua montagem fácil e prática.</p>
             </RentingGridCard>
             <RentingGridCard>
-                <img src={img4} />
+               //anexar imagem
                 <h1>Usinas de Micro Revestimento</h1>
                 <p>Locação de Usinas de Micro Revestimento sendo utilizadas para a proteção, impermeabilização e rejuvenescimento superficial e estético dos pavimentos asfálticos em início de desgaste pelo tráfego.</p>
             </RentingGridCard>
             <RentingGridCard>
-                <img src={img5} />
+                <img src={img6} />
                 <h1>Fresadoras</h1>
                 <p>Locação de Fresadora de asfaltos utilizadas para remoção de pavimentos asfálticos, através de corte e desbaste de uma ou mais camadas extraindo um material de tamanho uniforme.</p>
             </RentingGridCard>
             <RentingGridCard>
-                <img src={img6} />
+                //anexar imagem
                 <h1>Recicladoras de Asfalto</h1>
                 <p>Locação de Recicladoras de Asfalto, máquinas estabilizadoras de solo e recicladoras de pavimentos asfálticos que executam de uma só vez ambos os serviços, também pode executar separadamente.</p>
             </RentingGridCard>
