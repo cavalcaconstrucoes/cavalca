@@ -12,10 +12,12 @@ const Footer: React.FC = () => {
                 </FooterCard>
                 <FooterCard>
                     <h1>Paraná</h1>
-                    <p>Rua Maranhão, nº 1700, sala 1, Centro, Cascavel, PR, CEP: 85801-050, Telefone (45) 3219-9000</p>
+                    <p>Rua Maranhão, nº 1700, sala 1, Centro, Cascavel, PR, CEP: 85801-050, Telefone (45) 3035 9950</p>
                 </FooterCard>
             </FooterStyle>
-            <FooterText>Copyright 2022 ©  - Cavalca Construções. Todos os direitos reservados.</FooterText>
+            <FooterText>Copyright 2022 ©  - Cavalca Construções. Todos os direitos reservados.
+            <a href="https://www.flaticon.com/br/icones-gratis/construcao" title="construção ícones">Construção ícones criados por ultimatearm - Flaticon</a>
+            </FooterText>
         </>
     )
 }
