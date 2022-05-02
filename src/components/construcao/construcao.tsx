@@ -6,6 +6,8 @@ const Construcao = () => {
     return(
      <Image 
         src={constru}
+        width={500}
+        height={500}
      />
     )
 }
